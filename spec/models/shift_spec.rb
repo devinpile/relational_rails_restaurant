@@ -6,7 +6,7 @@ RSpec.describe Shift do
     end 
 
     describe 'validations' do 
-        it { should validate_presence_of :type }
+        it { should validate_presence_of :shift_type }
         it { should validate_presence_of :hours }
         it { should validate_presence_of :full_staff }
     end  

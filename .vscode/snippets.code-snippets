@@ -1,0 +1,8 @@
+{
+    "Save and Open Page": {
+      "prefix": "saop",
+      "body": ["save_and_open_page"],
+      "description": "Save and open the current page in the default web browser."
+    }
+  }
+  
