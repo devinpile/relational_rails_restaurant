@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe Restaurant do 
+RSpec.describe Restaurant do 
     describe 'relations' do 
         it { should have_many :dishes }
     end
