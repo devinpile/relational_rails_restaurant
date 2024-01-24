@@ -10,4 +10,4 @@ RSpec.describe Restaurant do
         it { should validate_presence_of :rating }
         it { should validate_presence_of :open }
     end 
-end 
+end

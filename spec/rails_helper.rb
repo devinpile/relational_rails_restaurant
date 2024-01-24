@@ -73,3 +73,14 @@ Shoulda::Matchers.configure do |config|
     with.library :rails
   end
 end
+
+require 'capybara/rspec'
+require 'capybara/rails'
+require 'launchy'
+
+Capybara.default_driver = :rack_test
+Capybara.javascript_driver = :selenium_chrome # If you want to use Selenium with Chrome
+
+RSpec.configure do |config|
+  config.include Capybara::DSL
+end
