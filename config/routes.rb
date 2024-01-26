@@ -11,4 +11,6 @@ Rails.application.routes.draw do
 
   get '/shifts', to: 'shifts#index'
   get '/shifts/:id', to: 'shifts#show'
+
+  get '/workers', to: 'workers#index'
 end

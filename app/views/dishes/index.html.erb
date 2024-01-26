@@ -1,5 +1,9 @@
 <h1>Dishes</h1> 
+<hr>
 
 <% @dishes.each do |dish| %>
     <h3>- <%= dish.name %></h3>
+    <p>Calories: <%= dish.calories %></p>
+    <p>Vegan: <%= dish.vegan %></p> 
+    <br> 
 <% end %>
