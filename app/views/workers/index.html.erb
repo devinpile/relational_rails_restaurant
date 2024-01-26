@@ -1,0 +1,10 @@
+<h1>Workers</h1> 
+<hr>
+
+<% @workers.each do |worker| %>
+    <h3>Worker ID: <%= worker.id %></h3>
+    <p>Position: <%= worker.position %></p>
+    <p>Years Experience: <%= worker.years_exp %></p>
+    <p>Working: <%= worker.working %></p> 
+    <br> 
+<% end %>
