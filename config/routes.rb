@@ -7,6 +7,8 @@ Rails.application.routes.draw do
   get '/restaurants', to: 'restaurants#index'
   get '/restaurant/:id', to: 'restaurants#show'
 
+  get '/dishes', to: 'dishes#index'
+
   get '/shifts', to: 'shifts#index'
   get '/shifts/:id', to: 'shifts#show'
 end
